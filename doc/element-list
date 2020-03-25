@@ -1,0 +1,6 @@
+it.xseris.jca.cryptography.rot
+it.xseris.jca.hashing.hash
+it.xseris.jca.steganography.substitution
+it.xseris.jca.test.cryptography.rot
+it.xseris.jca.test.hashing.hash
+it.xseris.jca.test.steganography.substitution
