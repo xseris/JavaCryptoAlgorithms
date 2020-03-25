@@ -4,7 +4,7 @@
 	<artifactId>JavaCTFAlgorithms</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
-	<name>Java Crytpo Algorithms</name>
+	<name>Java CTF Algorithms</name>
 	<description>
         Collection of CTF algorithms
     </description>
