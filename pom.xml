@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>it.xseris.jca</groupId>
+	<groupId>com.github.xseris.jca</groupId>
 	<artifactId>JavaCryptoAlgorithms</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -39,6 +39,9 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.5.3</version>
 				<configuration>
+					<checkModificationExcludes>
+						<checkModificationExclude>pom.xml</checkModificationExclude>
+					</checkModificationExcludes>
 					<localCheckout>true</localCheckout>
 					<pushChanges>false</pushChanges>
 					<mavenExecutorId>forked-path</mavenExecutorId>
@@ -55,11 +58,12 @@
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
-				<version>1.6.7</version>
+				<version>1.6.8</version>
 				<extensions>true</extensions>
 				<configuration>
 					<serverId>ossrh</serverId>
 					<nexusUrl>https://oss.sonatype.org/</nexusUrl>
+					<stagingProfileId>com.github.xseris</stagingProfileId>
 					<autoReleaseAfterClose>true</autoReleaseAfterClose>
 				</configuration>
 			</plugin>
@@ -107,7 +111,7 @@
 		<connection>scm:git:git://github.com/xseris/JavaCryptoAlgorithms.git</connection>
 		<developerConnection>scm:git:git@github.com:xseris/JavaCryptoAlgorithms.git</developerConnection>
 		<url>https://github.com/xseris/JavaCryptoAlgorithms</url>
-		<tag>HEAD</tag>
+		<tag>JavaCryptoAlgorithms-1.0</tag>
 	</scm>
 	<profiles>
 		<!-- GPG Signature on release -->
