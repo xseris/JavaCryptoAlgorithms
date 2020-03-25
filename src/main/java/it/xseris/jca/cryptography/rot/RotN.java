@@ -9,6 +9,7 @@ public class RotN {
 	 *            The input text.
 	 * @param shift
 	 *            The rotation magnitude.
+	 * @return The result.
 	 */
 	public static String rotate(String text, int shift) {
 		StringBuilder sb = new StringBuilder();

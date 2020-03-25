@@ -77,6 +77,7 @@ public class Rot135 {
 	 * 
 	 * @param text
 	 *            The input text.
+	 * @return The result.
 	 */
 	public static String encode(String text) {
 		StringBuilder ret = new StringBuilder();
@@ -96,6 +97,7 @@ public class Rot135 {
 	 * 
 	 * @param text
 	 *            The input text.
+	 * @return The result.
 	 */
 	public static String decode(String text) {
 		return encode(text);

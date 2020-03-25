@@ -16,6 +16,7 @@ public class SHA1 {
 	 * 
 	 * @param text
 	 *            The input text
+	 * @return The result.
 	 */
 	public static String encode(String text) {
 		MessageDigest md = null;
@@ -36,7 +37,7 @@ public class SHA1 {
 	 *            The file containing the words (one per line)
 	 * @param target
 	 *            The Hash to bruteforce
-	 * @return
+	 * @return The result.
 	 */
 	public static String bruteforce(File wordlist, String target) {
 		try (BufferedReader reader = new BufferedReader(new FileReader(wordlist));) {

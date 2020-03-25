@@ -135,6 +135,7 @@ public class BaconianCipher {
 	 * 
 	 * @param text
 	 *            The text to encode;
+	 * @return The result.
 	 */
 	public static String encodeLatin(String text) {
 		text = text.toLowerCase();
@@ -156,6 +157,7 @@ public class BaconianCipher {
 	 * 
 	 * @param text
 	 *            The text to decode;
+	 * @return The result.
 	 */
 	public static String decodeLatin(String text) {
 		text = text.toLowerCase().replace(" ", "");
@@ -175,6 +177,7 @@ public class BaconianCipher {
 	 * 
 	 * @param text
 	 *            The text to encode;
+	 * @return The result.
 	 */
 	public static String encodeFull(String text) {
 		text = text.toLowerCase();
@@ -196,6 +199,7 @@ public class BaconianCipher {
 	 * 
 	 * @param text
 	 *            The text to decode;
+	 * @return The result.
 	 */
 	public static String decodeFull(String text) {
 		text = text.toLowerCase().replace(" ", "");
