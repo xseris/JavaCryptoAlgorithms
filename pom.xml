@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.xseris.jca</groupId>
 	<artifactId>JavaCryptoAlgorithms</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.1</version>
 
 	<name>Java Crytpo Algorithms</name>
 	<description>
@@ -70,6 +70,13 @@
 						</goals>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<configuration>
+					<source>8</source>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -148,7 +155,7 @@
 		<connection>scm:git:git://github.com/xseris/JavaCryptoAlgorithms.git</connection>
 		<developerConnection>scm:git:git@github.com:xseris/JavaCryptoAlgorithms.git</developerConnection>
 		<url>https://github.com/xseris/JavaCryptoAlgorithms</url>
-		<tag>JavaCryptoAlgorithms-1.0</tag>
+		<tag>JavaCryptoAlgorithms-1.1</tag>
 	</scm>
 	<profiles>
 		<!-- GPG Signature on release -->
