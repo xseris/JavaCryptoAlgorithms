@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.xseris.jca</groupId>
 	<artifactId>ctf-algorithms</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 
 	<name>Java CTF Algorithms</name>
 	<description>
@@ -155,7 +155,7 @@
 		<connection>scm:git:git://github.com/xseris/JavaCTFAlgorithms.git</connection>
 		<developerConnection>scm:git:git@github.com:xseris/JavaCTFAlgorithms.git</developerConnection>
 		<url>https://github.com/xseris/JavaCTFAlgorithms</url>
-		<tag>JavaCryptoAlgorithms-1.0</tag>
+		<tag>ctf-algorithms-1.0.0</tag>
 	</scm>
 	<profiles>
 		<!-- GPG Signature on release -->
