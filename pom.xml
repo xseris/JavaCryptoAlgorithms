@@ -2,7 +2,29 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.xseris.jca</groupId>
 	<artifactId>JavaCryptoAlgorithms</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.0</version>
+	
+	<name>Java Crytpo Algorithms</name>
+    <description>
+        Collection of cryptography/steganography and encodings algorithms
+    </description>
+    <url>https://github.com/xseris/JavaCryptoAlgorithms</url>
+
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>xseris</id>
+            <name>Simone Sandri</name>
+            <email>simone.povoscania@gmail.com</email>
+        </developer>
+    </developers>
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
