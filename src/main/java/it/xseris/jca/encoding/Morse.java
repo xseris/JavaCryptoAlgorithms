@@ -118,7 +118,7 @@ public class Morse {
 	/**
 	 * Encode the text using Morse Code.
 	 * 
-	 * @param Text
+	 * @param text
 	 *            The input text
 	 * @return The output
 	 */
@@ -153,7 +153,7 @@ public class Morse {
 	/**
 	 * Decode the text using Morse Code.
 	 * 
-	 * @param Text
+	 * @param text
 	 *            The input text
 	 * @return The output
 	 */
